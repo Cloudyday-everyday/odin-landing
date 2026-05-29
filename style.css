@@ -6,8 +6,11 @@ body{
 
 .header{
     background-color: #1F2937;
-    padding:16px 32px;
     margin: 0px;
+}
+
+.header, .content, .footer {
+    padding:0px 125px
 }
 
 .logo-and-links{
@@ -35,4 +38,10 @@ body{
 .header-image{
     border: black solid;
     width: 700px;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
